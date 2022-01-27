@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounddb"
+    tools:context=".Dashboard">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:padding="10dp"
+        android:src="@drawable/applogo"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/appLogo"
+        android:text="MAIN MENU"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/firstdivide"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/banner"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:paddingTop="10dp">
+
+        <ImageButton
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/profile"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/routine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/routine"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondDivide"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/firstdivide"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:paddingTop="10dp">
+
+        <ImageButton
+            android:id="@+id/goals"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/goals"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/session"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/session"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lastDivide"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/secondDivide"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#2B2D2F"
+            android:text="Log out"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

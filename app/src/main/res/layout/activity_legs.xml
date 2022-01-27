@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/secondbg"
+    tools:context=".LegsActivity">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:padding="10dp"
+        android:src="@drawable/applogo"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/appLogo"
+        android:text="QUADS - HAMSTRINGS - CALVES"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" >
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/firstdivide"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/banner"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/optionA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#404040"
+            android:padding="10dp"
+            android:text="Hack Squat
+                          Leg Extension
+                          Romanian Deadlift
+                          Leg Press
+                          Ham String Curls
+                          Calf Raise"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/optionB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#404040"
+            android:padding="10dp"
+            android:text="Squat
+                          Deadlift
+                          Dumb Bell Lunges
+                          Leg Press
+                          Hamstring Curls
+                          Seated Calf Lift"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondDivide"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/firstdivide"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/optionC"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#404040"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="Squat
+                          Hip Thrust
+                          Cable Leg Extension
+                          Leg Press
+                          Banded Leg Curl
+                          Calf Raise"
+            android:textAlignment="center"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/optionD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#404040"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="Bulgarian Split Squat
+                          Hip Thrust
+                          Leg Extension
+                          Leg Press
+                          Hamstring Curl
+                          Calf Raise"
+            android:textAlignment="center"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lastDivide"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/secondDivide"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Quit"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#2B2D2F"
+            android:padding="10dp"
+            android:text="Quit"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

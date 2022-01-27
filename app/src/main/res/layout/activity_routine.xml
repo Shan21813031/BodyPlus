@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/routinebg"
+    android:padding="15dp"
+    tools:context=".RoutineActivity">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:src="@drawable/applogo"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/appLogo"
+        android:text="Routine: Selection"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:id="@+id/bodyDivide"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/banner"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/leftShouldersArms"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/ll"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/chestBackAbs"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/rb"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/rightShouldersArms"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="40dp"
+            android:src="@drawable/rr"
+            android:textAlignment="center" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/legDivide"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/bodyDivide"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/rightLeg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/lleg"
+            />
+
+        <ImageButton
+            android:id="@+id/leftLeg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/rleg"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/legDivide"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Back"
+            android:textSize="20sp"
+            android:backgroundTint="#2B2D2F"
+            android:textStyle="bold">
+        </Button>
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

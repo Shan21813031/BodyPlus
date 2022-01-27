@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/sessionmenu"
+    tools:context=".SessionActivity">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="10dp"
+        android:src="@drawable/applogo"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/appLogo"
+        android:text="START SESSION"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/firstdivide"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/banner"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/push"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:backgroundTint="#404040"
+            android:padding="10dp"
+            android:text="PUSH SESSION"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondDivide"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/firstdivide"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:paddingTop="10dp" >
+
+    <Button
+        android:id="@+id/pull"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#404040"
+        android:padding="10dp"
+        android:text="PULL SESSION"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdDivide"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/secondDivide"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/legs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#404040"
+            android:padding="10dp"
+            android:text="LEGS SESSION"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourthDivide"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/thirdDivide"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/Quit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:backgroundTint="#404040"
+            android:text="Return"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

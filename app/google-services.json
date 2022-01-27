@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "746763098430",
+    "project_id": "bodyplus-auth",
+    "storage_bucket": "bodyplus-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746763098430:android:f53021bca07b367536f46f",
+        "android_client_info": {
+          "package_name": "com.apress.gerber.bodyplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746763098430-66mer8n8bdj1t7f07u7b6tlt83s5iciq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9AMPsxYk_ZrKITS2-53Zm4W1lC_f0J5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746763098430-66mer8n8bdj1t7f07u7b6tlt83s5iciq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

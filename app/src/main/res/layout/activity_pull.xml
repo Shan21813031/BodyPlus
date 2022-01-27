@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/black"
+    tools:context=".PullActivity">
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="PULL SESSION"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/banner"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/firstDivide"
+        android:background="#8D2A00">
+
+        <TextView
+            android:id="@+id/ex1"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text=" "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/complete1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="FINISH"
+            android:backgroundTint="#601C00"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/firstDivide"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/secondDivide"
+        android:background="#B55219">
+
+        <TextView
+            android:id="@+id/ex2"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text=" "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/complete2"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="FINISH"
+            android:backgroundTint="#984514"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/secondDivide"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/thirdDivide"
+        android:background="#BE6731">
+
+        <TextView
+            android:id="@+id/ex3"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text=" "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/complete3"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="FINISH"
+            android:backgroundTint="#955126"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/thirdDivide"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/fourthDivide"
+        android:background="#76704C">
+
+        <TextView
+            android:id="@+id/ex4"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text=" "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/complete4"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="FINISH"
+            android:backgroundTint="#5E593C"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/fourthDivide"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/fifthDivide"
+        android:background="#545E46">
+
+        <TextView
+            android:id="@+id/ex5"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text=" "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/complete5"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="FINISH"
+            android:backgroundTint="#394030"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/fifthDivide"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/sixthDivide"
+        android:background="#1F2D16">
+
+        <TextView
+            android:id="@+id/ex6"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text=" "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/complete6"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="FINISH"
+            android:backgroundTint="#16200F"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/sixthDivide"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/seventhDivide"
+        android:background="#192E2F">
+
+        <TextView
+            android:id="@+id/ex7"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text=" "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/complete7"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="FINISH"
+            android:backgroundTint="#122222"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/seventhDivide"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/eigthDivide"
+        android:background="#7BA9A9">
+
+        <TextView
+            android:id="@+id/ex8"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text=" "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/complete8"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="FINISH"
+            android:backgroundTint="#4B6969"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
